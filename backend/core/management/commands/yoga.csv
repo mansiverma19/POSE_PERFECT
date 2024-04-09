@@ -1,0 +1,21 @@
+YOGA NAME,English Name,PERSON,VIEW,ORIENTATION,KNEE,HIP,TORSO,SHOULDER,ELBOW,ANKLE,NECK,WRIST
+Tadasana ,(Mountain Pose),dj,F,V,0,0,0,1,0,1,0,1
+Bhujangasana ,(Cobra Pose),dj,S,H,0,1,0,0,0,0,0,0
+Paschimottanasana ,(Seated Forward Bend),dj,S,V,0,1,0,1,1,0,1,0
+Vrikshasana ,(Tree Pose),dj,F,V,1,0,0,1,1,0,0,0
+Trikonasana ,(Triangle Pose),dj,F,V,1,1,0,1,0,0,1,0
+Sarvangasana ,(Shoulder Stand),mansi,S,V,1,1,1,1,1,0,1,0
+Ustrasana,(Camel Pose),mansi,S,V,1,0,1,1,1,0,1,0
+Dhanurasana ,(Bow Pose),mansi,S,H,1,1,0,1,1,1,1,0
+Virabhadrasana II ,(Warrior II Pose),mansi,F,V,1,0,1,1,1,1,0,0
+Ananda Balasana ,(Happy Baby Pose),mansi,S,H,1,1,0,1,1,0,1,0
+Adho Mukha Svanasana ,(Downward-Facing Dog),aarav,S,H,0,1,1,0,0,1,0,1
+Utthita Trikonasana ,(Extended Triangle Pose),aarav,F,V,0,1,1,1,0,0,0,0
+Setu Bandhasana ,(Bridge Pose),aarav,S,H,1,1,1,0,0,0,0,0
+Marjarasana ,(Cat-Cow Pose),aarav,S,H,1,1,1,1,0,0,1,0
+Gomukhasana ,(Cow Face Pose),aarav,F,H,1,0,0,0,1,1,0,0
+Balasana,(Child’s Pose),hima,S,H,1,1,0,0,0,1,1,0
+Ardha Matsyendrasana ,(Half Lord of the Fishes Pose),hima,F,V,1,1,0,1,0,1,0,0
+Garudasana ,(Eagle Pose),hima,S,V,1,1,0,1,1,1,1,1
+Matsyasana ,(Fish Pose),hima,S,H,0,1,0,1,0,1,1,0
+Sukhasana ,(Easy Pose),hima,F,V,1,1,0,1,0,1,0,0

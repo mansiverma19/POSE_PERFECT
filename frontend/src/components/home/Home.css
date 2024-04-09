@@ -1,0 +1,232 @@
+.h-main{
+    display: flex;
+    height: 80vh;
+    position: relative;
+    margin-top: 12rem;
+}
+
+
+.h-left{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 3rem;
+    gap: 2rem;
+    top: 2rem;
+}
+
+.h-head{
+    display: flex;
+    flex-direction: column;
+}
+
+.h-head> :nth-child(1){
+    height: .9em;
+  -webkit-text-fill-color: transparent;
+  background-color: #36312b;
+  background-image: linear-gradient(79deg, #2b0aff, #ff5b8a 49%, #ff5b8a 55%, #fba64b 77%, #f99b52);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-left: 16px;
+  padding-left: 16px;
+  font-size: 2rem;
+}
+
+.h-head > :nth-child(2){
+    height: 1.05em;
+  -webkit-text-fill-color: transparent;
+  background-color: #36312b;
+  background-image: linear-gradient(79deg, #2b0aff, #ff5b8a 49%, #ff5b8a 55%, #fba64b 77%, #f99b52);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-left: 15px;
+  padding-left: 15px;
+  font-size: 3rem;
+}
+
+.h-head>:nth-child(3){
+    height: .9em;
+  -webkit-text-fill-color: transparent;
+  background-color: #36312b;
+  /* background-image: linear-gradient(79deg, #2b0aff, #ff5b8a 49%, #ff5b8a 55%, #fba64b 77%, #f99b52); */
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-left: 15px;
+  padding-left: 15px;
+  font-size: 5rem;
+}
+
+.h-head>:nth-child(4){
+    /* height: 1em; */
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-left: 15px;
+    /* margin-right: 15px;s */
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.h-buto{
+  height: 50px;
+  width: 40%;
+  color: #fff;
+  text-align: center;
+  text-transform: none;
+  cursor: pointer;
+  background-color: #a300d1;
+  background-image: linear-gradient(315deg, #a300d1, #ff844a);
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 0 35px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 50px;
+  margin-left: 35px;
+  padding-left: 35px;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+}
+
+.h-buto:hover{
+   cursor: pointer;
+    color: #ffebeb;
+    background-image: linear-gradient(315deg, #d10000, #d54aff);
+    border: 8px solid linear-gradient(315deg, #a300d1, #ff844a);
+    border-radius:50px;
+}
+
+.h-buto .newlnk{
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.h-right{
+    flex: 1;
+    position: relative;
+}
+
+.h-right>*{
+  position: absolute;
+  z-index: 1;
+}
+
+.h-right>:nth-child(1){
+  transform: scale(0.69);
+  left: -5%;
+  top: -5rem;
+}
+
+.h-right>:nth-child(2){
+  transform: scale(0.67);
+  top: -8rem;
+  left: -3rem;
+  opacity: 98%;
+}
+
+.h-right>:nth-child(3){
+  transform: scale(0.70);
+  top: -18rem;
+  left: 2rem;
+}
+
+.ftd{
+  top: -4%;
+  left: 54%;
+}
+
+.floatdown{
+  top: 54%;
+}
+
+@media screen and (max-width: 480px) {
+  .h-main {
+    flex-direction: column-reverse;
+    /* gap: 3rem; */
+    height: 45rem;
+    margin-top: 0;
+  }
+
+  .h-head{
+    text-align: center;
+    gap: 0;
+  }
+  .h-head>:nth-child(1){
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 3rem;
+  }
+
+   .h-head>:nth-child(2){
+    font-size: 2rem;
+    padding-left: 0;
+    margin-left: 0;
+     padding-right: 3rem;
+  }
+   .h-head>:nth-child(3){
+    font-size: 2.5rem;
+    padding-left: 0;
+    margin-left: 0;
+     padding-right: 3rem;
+  }
+.h-head>:nth-child(4){
+    padding-left: 0;
+    margin-left: 0;
+     padding-right: 2rem;
+     font-size: 0.9rem;
+     font-weight: 300;
+     height: 50px;
+  width: 85%;
+  }
+
+  .h-buto{
+    margin-left: 5.2rem;
+    height: 45px;
+  }
+  
+
+  .h-right {
+    top: 2rem;
+    transform: scale(0.8);
+    left: -3rem;
+    /* height: 20vh; */
+  }
+
+  /* .h-left{
+    height: 20vh;
+  } */
+
+  .h-right .blur {
+    display: none;
+
+  }
+
+  .h-right>:nth-child(1){
+  transform: scale(0.4);
+  left: -5rem;
+  top: -9rem;
+  }
+
+.h-right>:nth-child(2){
+  transform: scale(0.4);
+  top: -12rem;
+  left: -6rem;
+  opacity: 98%;
+}
+  .h-right>:nth-child(3){
+  transform: scale(0.48);
+  top: -20rem;
+  left: -1rem;
+}
+  .floatdown{
+    
+    top: 10rem !important;;
+    left: 2rem;
+  }
+  .ftd{
+    top: 1rem !important;;
+    left: 20rem;
+  }
+}

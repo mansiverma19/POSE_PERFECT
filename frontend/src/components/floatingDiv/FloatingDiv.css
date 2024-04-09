@@ -1,0 +1,43 @@
+.floatingDiv{
+    justify-content: space-around;
+    display: flex;
+    background: rgb(242, 208, 255);
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+    align-items: center;
+    height: 80px;
+    
+}
+
+.floatingDiv>img{
+    transform: scale(0.4);
+}
+
+.floatingDiv>span{
+    font-size: 30px;
+    font-weight: 600;
+    /* font-family: sans-serif;/ */
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 480px){
+
+    .floatingDiv{
+        height: 48px;
+        width: 150px;    
+        position: relative;
+    }
+
+    .floatingDiv>img{
+        transform: scale(0.30);
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: -8px;
+    }
+    .floatingDiv>span{
+        font-size: 20px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: -28px;
+    }
+}

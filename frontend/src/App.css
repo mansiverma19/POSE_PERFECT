@@ -1,0 +1,27 @@
+:root
+{
+  --babypink: #fce0ff;
+  --pink: #fee3c3;
+  --black: #242D49;
+  --blacks: black;
+    --seashell: rgba(255, 248, 242, .85);
+    --white: white;
+  --gray: #788097;
+  --greenCard : #9cff95;
+    --purple: rgb(238 210 255);
+    --boxShadow : 0px 19px 60px rgb(236, 153, 255);
+    --boxShadoow : 0px 19px 60px rgb(255, 149, 149);
+    --orangeCard: rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App{
+    font-family: "Yrsa", serif;
+    border-radius: 0%;
+    /* background-color: var(--pink); */
+    background-image: radial-gradient(circle farthest-side at 0% 65%,#ffc1ad, #ffe3db, #ffcd95c8, #faf2e9, #faf4ea, #fbf6ea, #fbf7eb, #fcf8ed, #fcf8ec, #fcf5e5, #fbf1de, #fbeeda, #ffe8c9, #ffe37c70, #fcd8b7);
+    /* background-image: radial-gradient(circle farthest-side at 0% 75%, #969AF2,#C2BDFD,#D4B4FB,#B2B6FE,#FFB4F0); */
+    overflow: hidden;
+    color: var(--black);    
+}
+

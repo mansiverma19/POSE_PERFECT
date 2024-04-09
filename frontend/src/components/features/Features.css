@@ -1,0 +1,174 @@
+.exercise {
+    display: flex;
+    height: 70vh;
+    position: relative;
+}
+
+.exright {
+    /* display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 3rem;
+    gap: 2rem; */
+    flex: 1;
+    position: relative;
+}
+
+.exright>*{
+    position: absolute;
+z-index: 1;
+}
+
+.exleft {
+   display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 3rem;
+    /* gap: 2rem; */
+    top: 6rem;
+}
+
+
+
+/* 
+.exrightinner {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  z-index: 1;
+} */
+
+
+
+
+.exright>:nth-child(1) {
+    width: 36rem;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 5rem;
+    border: solid brown 1px;
+}
+
+.exright>:nth-child(2){
+    transform: scale(0.8);
+    right: -4.2rem;
+    top: -3rem;
+}
+
+.exleft>:nth-child(1){
+    height: .9em;
+  -webkit-text-fill-color: transparent;
+  background-color: #36312b;
+  background-image: linear-gradient(79deg, #2b0aff, #ff5b8a 49%, #ff5b8a 55%, #fba64b 77%, #f99b52);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-left: 4rem;
+  padding-left: 15px;
+  font-size: 2rem;
+}
+
+.exleft>:nth-child(2){
+  height: 1.05em;
+  -webkit-text-fill-color: transparent;
+  background-color: #36312b;
+  background-image: linear-gradient(79deg, #2b0aff, #ff5b8a 49%, #ff5b8a 55%, #fba64b 77%, #f99b52);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-left: 4rem;
+  padding-left: 15px;
+  font-size: 3rem;
+}
+
+.exleft>:nth-child(3){
+    height: 1em;
+  -webkit-text-fill-color: transparent;
+  background-color: #36312b;
+  background-image: linear-gradient(79deg, #2b0aff, #ff5b8a 49%, #ff5b8a 55%, #fba64b 77%, #f99b52);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-left: 4rem;
+  padding-left: 15px;
+  font-size: 3rem;
+}
+
+.exleft>:nth-child(4){
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-left: 4rem;
+    /* margin-right: 15px;s */
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Media Queries for Tablet */
+@media only screen and (min-width: 768px) {
+    .exercise {
+        height: 70vh; /* Set height back for tablets */
+    }
+}
+
+/* Media Queries for iPad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Adjust styles as needed for iPad */
+}
+
+/* Media Queries for Mobile */
+@media only screen and (max-width: 767px) {
+    .exleft>:nth-child(1),
+    .exleft>:nth-child(2),
+    .exleft>:nth-child(3) {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .exleft>:nth-child(4) {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}
+
+
+/* Media Queries for Mobile Phones */
+@media screen and (max-width: 480px) {
+    .exercise{
+        flex-direction: column;
+        height: 45vh;
+        gap: 0;
+    }
+    .exleft{
+        padding-left: 0px;
+        margin-right: 55px;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 1.5rem;
+    }
+    
+    .exright>:nth-child(1){
+        width: 72%;
+        margin-left: 3rem;
+    }
+    .exright>:nth-child(2){
+        transform: scale(0.4);
+        right: -3rem;
+        top: -10rem;
+    }
+
+    .exleft>:nth-child(1),
+    .exleft>:nth-child(2),
+    .exleft>:nth-child(3) {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        text-align: center;
+        font-weight: bold;
+        padding-left: 0px;
+    }
+
+    .exleft>:nth-child(4) {
+        font-size: 1.2rem; /* Adjust font size for smaller screens */
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}

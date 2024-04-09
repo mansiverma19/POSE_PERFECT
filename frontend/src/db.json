@@ -1,0 +1,232 @@
+{
+  "posts": [
+    {
+      "id": "ddf8",
+      "firstname": "Aarav",
+      "lastname": "Shukla",
+      "emailid": "shuklaarav10@gmail.com",
+      "password": "AS1213as@",
+      "contact": "9039799902",
+      "location": "Sundar nagar",
+      "age": "22",
+      "gender": "Male",
+      "height": "5.4",
+      "weight": "72"
+    },
+    {
+      "0": " ",
+      "id": "1a6d",
+      "firstname": "Dheeraj",
+      "lastname": "Dubey",
+      "emailid": "dheeraj19@gmail.com",
+      "password": "Dheeraj@1920",
+      "contact": "7895461264",
+      "location": "Kota Raipur",
+      "age": "22",
+      "gender": "Female",
+      "height": "5.5",
+      "weight": "75"
+    },
+    {
+      "0": " ",
+      "id": "d860",
+      "firstname": "sasur ka ",
+      "lastname": "sakanaka",
+      "emailid": "sakanasasurka@gmail.com",
+      "password": "daukaSasur#420",
+      "contact": "979613131030",
+      "location": "Swarg",
+      "age": "55",
+      "gender": "Female",
+      "height": "7.2",
+      "weight": "130"
+    },
+    {
+      "0": " ",
+      "id": "6e5f",
+      "firstname": "Anjali",
+      "lastname": "Sahu",
+      "emailid": "anjalisahu@gmail.com",
+      "password": "jskjskjS@12",
+      "contact": "5523231366",
+      "location": "klsm;s",
+      "age": "21",
+      "gender": "Female",
+      "height": "4.2",
+      "weight": "42"
+    },
+    {
+      "0": " ",
+      "id": "45e9",
+      "firstname": "hasjsjsj",
+      "lastname": "s",
+      "emailid": "sss@gmail.com",
+      "password": "sss@gmail.com12S",
+      "contact": "5555",
+      "location": "subdar",
+      "age": "22",
+      "gender": "Male",
+      "height": "2.6",
+      "weight": "54"
+    },
+    {
+      "0": " ",
+      "id": "da1e",
+      "firstname": "jajaj",
+      "lastname": "hhhs",
+      "emailid": "js@gmail.com",
+      "password": "hhsGt5sfss^",
+      "contact": "4454545451",
+      "location": "hello",
+      "age": "88",
+      "gender": "Female",
+      "height": "5.4",
+      "weight": "54"
+    },
+    {
+      "id": "4ab0",
+      "firstname": "gsgsj",
+      "lastname": "hello",
+      "emailid": "hello@gmail.com",
+      "password": "hello@ahahD12",
+      "contact": "787855457",
+      "location": "heloo",
+      "age": "22",
+      "gender": "Male",
+      "height": "5.4",
+      "weight": "54"
+    },
+    {
+      "0": " ",
+      "id": "bd3f",
+      "fname": "44",
+      "lname": "jsks",
+      "emailid": "gmail@gmail.com",
+      "password": "hshsA723@",
+      "contact": "777777777",
+      "location": "sjsj",
+      "age": "22",
+      "gender": "Male",
+      "height": "4.6",
+      "weight": "57"
+    },
+    {
+      "id": "c98b",
+      "firstname": "Narendra",
+      "lastname": "Modi",
+      "email": "modi@gmail.com",
+      "password": "Modi@29291",
+      "contact": "9232323220",
+      "address": "adeeeesddssa",
+      "age": "45",
+      "gender": "Male",
+      "height": "123",
+      "weight": "45"
+    },
+    {
+      "id": "1352",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "8db9",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "bc8d",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "8b61",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "05d2",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "f697",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "2b02",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "087e",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "613b",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "420a",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "88d5",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "89dd",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "c816",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "ab26",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "2e01",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "177b",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "eccd",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "0866",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "a3ae",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "be9a",
+      "method": "POST",
+      "body": {}
+    },
+    {
+      "id": "544a",
+      "method": "POST",
+      "body": {}
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+.cats-main{
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+        display: flex;    
+}
+.cats-sec{
+    min-height: 70vh;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10rem;
+    /* top: 10px; */
+}
+
+.cats-left{
+    width: 30%;
+    min-height: 90%;
+    flex: 1;
+    text-align: center;
+    background-image: url('C:\Users\mansi\VS Code Program\project\Django project\Pose Perfect\frontend\src\image\linbg.jpg');
+    margin-left: 10px;
+    margin-right: 25px;
+    /* border-radius: 15px;  */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 1); /* Darker shadow */
+}
+
+.cats-right{
+    width: 30%;
+    min-height: 90%;
+    flex: 1;
+    text-align: center;
+    /* background:blueviolet ; */
+    background-image: url('C:\Users\mansi\VS Code Program\project\Django project\Pose Perfect\frontend\src\image\linbg.jpg');
+    margin-left: 25px;
+    margin-right: 10px;
+    /* border-radius: 15px;  */
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 1); /* Darker shadow */
+}
+
+.cat-head{
+     font-weight: bold;
+    font-size: 40px;
+    color: white;
+    margin: 20px;
+    font-family: "Yrsa", serif;
+}
+
+.yogex{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+    font-family: "Yrsa", serif;
+
+}
+
+
+
+.expm{
+    margin: 10px;
+    margin-top: 0;
+}
+
+
+.buts{
+    border-radius:50px;
+    /* border: solid px wheat; */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 18px;
+    color: aliceblue;
+    background-color: aliceblue;
+background-image: linear-gradient(50deg,  #ff5b8a 49%, #ff5b8a 53%, #ff5b8a 55%, #fba64b 77%, #f99b52);
+    box-shadow: 8px 8px 14px 2px rgba(230, 155, 255, 0.42);
+    margin-bottom: 15px;
+}
+
+.buts .links{
+  color: aliceblue;
+}
+
+.buts:hover{
+   cursor: pointer;
+  color: #ffebeb;
+  background-image: linear-gradient(315deg, #d10000, #d54aff);
+  border: 8px solid linear-gradient(315deg, #a300d1, #ff844a);
+  border-radius:10px;
+}

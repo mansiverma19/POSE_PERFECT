@@ -1,0 +1,50 @@
+.htw-main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.htw-inner{
+    width: 60%; /* Adjust as needed */
+    height: 80vh; /* 70% of viewport height */
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.htw-title{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Yrsa", serif;
+    -webkit-text-fill-color: transparent;
+  background-color: #36312b;
+background-image: linear-gradient(315deg, #d10000, #d54aff);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.htw-video{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65vh; /* 70% of viewport height */
+    border-radius: 15px; 
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 1); /* Darker shadow */
+    overflow: hidden; 
+}
+
+@media screen and (max-width: 480px) {
+
+      .htw-main{
+        min-height: 6vh;
+      }
+      .htw-inner{
+        min-height: 60%;
+      }
+      .htw-video{
+        width: auto;
+        min-height: 40%;
+      }
+    }

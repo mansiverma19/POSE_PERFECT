@@ -1,0 +1,43 @@
+/* .cam-veiw{
+    width: 100%;
+    margin-right: 50px;
+}
+
+#webcam{
+    right: -18rem;
+    top: -10rem;
+} */
+
+/* #output_canvas,.output_canvas{
+    right: -18rem;
+    top: -10rem;
+} */
+/* 
+.mdc-button{
+    height: 50px;
+  width: 40%;
+  color: #fff;
+  text-align: center;
+  text-transform: none;
+  cursor: pointer;
+  background-color: #a300d1;
+  background-image: linear-gradient(315deg, #a300d1, #ff844a);
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 0 35px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 50px;
+  margin-left: 65px;
+  padding-left: 35px;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+}
+
+.mdc-button:hover{
+     cursor: pointer;
+    color: #ffebeb;
+    background-image: linear-gradient(315deg, #d10000, #d54aff);
+    border: 8px solid linear-gradient(315deg, #a300d1, #ff844a);
+    border-radius:50px;
+} */

@@ -1,0 +1,84 @@
+.about-container {
+    /* padding: 20px; */
+        background-image: radial-gradient(circle farthest-side at 2% 35%,#ffede7, #ffe3db, #ffcd9558, #faf2e9, #faf4ea, #fbf6ea, #fbf7eb, #fcf8ed, #fcf8ec, #fcf5e5, #fbf1de, #fbeeda, #ffe8c9, #ffe37c70, #fcd8b7);
+
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-title {
+    text-align: center;
+    color: #333;
+}
+
+.about-paragraph {
+    text-align: justify;
+    margin-top: 20px;
+    color: #555;
+}
+
+.tech-stack-title {
+    margin-top: 40px;
+    color: #333;display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-stack-list {
+    list-style-type: none;
+    padding-left: 20px;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: bold;
+    gap: 25px;
+}
+
+.team-title {
+    margin-top: 40px;
+    color: #333;
+    color: #333;display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* gap: 5px; */
+    
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-member img:hover {
+    transform: scale(1.1);
+}
+
+.team-member-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.team-member-role {
+    color: #777;
+    margin-bottom: 20px;
+}

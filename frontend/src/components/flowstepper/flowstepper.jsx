@@ -1,0 +1,8 @@
+// email = models.EmailField(db_index = True, max_length = 255, unique = True)
+// firstname = models.CharField(max_length = 60, blank = False)
+// lastname = models.CharField(max_length = 60, blank = False)
+// age = models.IntegerField(default=18, 0 to 100 blank = False)
+// contact = models.CharField(max_length = 20, 10 digit validation validators = [RegexValidator(regex = '^(\+?\d{1,3})?[-.\s]?\(?\d{3}\)?[-.\s]?\d{3}[-.\s]?\d{4}$')], blank = False)
+// address = models.CharField(max_length = 255, same null = True)
+// height = models.FloatField(blank = False,default=160 61cm to 250cm in cm)
+// weight = models.FloatField(blank = False,default=60 min weight 20kg)
